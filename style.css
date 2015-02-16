@@ -1,0 +1,80 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	font-family:"Verdana", sans-serif;
+	background-color:#555;
+	color:#000;
+	padding-left:100px;
+	padding-right:100px;
+	max-width:1000px;
+}
+
+#inputs{
+	padding:5px;
+	margin-bottom:5px;
+	background-color:#777;
+	width:auto;
+	max-width:423px;
+}
+
+#formular{
+	float:left;
+	max-width:450px;
+}
+
+#tut{
+	float:left;
+	padding:10px;
+	background-color:#777;
+	max-width:320px;
+	margin-left:10px;
+}
+img{
+	margin-bottom:5px;
+}
+
+#button{
+	margin:3px;
+}
+
+#unit-image , #unit-name , #training{
+	text-align:center;
+	color:#fff;
+	padding:1px;
+	margin:2px;
+}
+#unit-image:nth-child(odd) , #unit-name:nth-child(odd) , #training:nth-child(odd){
+	background-color:#999;
+}
+#unit-image:nth-child(even) , #unit-name:nth-child(even) , #training:nth-child(even){
+	background-color:#777;
+}
+
+table,th,td{
+	border-collapse:collapse;
+	border:2px solid white;
+	padding:8px;
+	text-align:center;
+}
+table{
+	margin-bottom:20px;
+}
+
+th{
+	color:#fff;
+	padding:6px;
+}
+h1,h2,h3,h4,h5,h6{
+	color:#fff;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	color:#fff;
+}
+a:hover{
+	text-decoration:underline;
+}
